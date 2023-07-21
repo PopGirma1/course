@@ -758,7 +758,30 @@ ol {
 	color: #878787;
 }
 
+.align-items-stretch{
+	justify-content: center;
+	align-items: center;
+	background-color: #EDF4F6;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 12px;
+}
+.contact{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+    text-align: center;
+
+}
+.contact-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 15px;
+}
+
 .widget-item ul.contact-list li {
+	
 	margin-bottom: 27px;
 	position: relative;
 	padding-left: 10px;
