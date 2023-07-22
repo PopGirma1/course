@@ -348,10 +348,18 @@ ol {
 .categorie-item {
 	margin-bottom: 34px;
 	background: #edf4f6;
-	-webkit-transition: all 0.4s;
+	margin-right: 3px;
+	/* -webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
-	transition: all 0.4s;
+	transition: all 0.4s; */
 }
+
+.categorie-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+ }
 
 .categorie-item .ci-thumb {
 	background-size: cover;
@@ -488,28 +496,23 @@ ol {
 	display: none;
 }
 
-.categorie-item .ci-text {
+/* .categorie-item .ci-text {
 	-ms-overflow-style: none;
-	/* IE and Edge */
 	scrollbar-width: none;
-	/* Firefox */
 	background: #edf4f6;
 	overflow: auto;
 	max-height: 45vh;
 	word-break: keep-all;
-}
+} */
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.course-item .course-info {
+/* .course-item .course-info {
 	-ms-overflow-style: none;
-	/* IE and Edge */
 	scrollbar-width: none;
-	/* Firefox */
 	background: #edf4f6;
 	overflow: auto;
 	max-height: 50vh;
 	word-break: keep-all;
-}
+} */
 
 .course-item .course-info .course-text {
 	padding: 45px 33px 25px;
