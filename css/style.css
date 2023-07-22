@@ -134,6 +134,10 @@ ol {
 	padding-bottom: 115px;
 }
 
+.course-items-area{
+	display: flex;
+	justify-content: center;
+}
 .text-white h1,
 .text-white h2,
 .text-white h3,
