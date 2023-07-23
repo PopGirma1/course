@@ -371,6 +371,10 @@ ol {
 	width: 100%;
 }
 
+.align-items-stretch:hover {
+	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
 .categorie-item .ci-thumb {
 	background-size: cover;
 	min-height: 148px;
