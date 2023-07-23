@@ -1584,7 +1584,7 @@ ol {
 	}
 
 	.tigirigna {
-		width: 400px;
+		width: 100%;
 	}
 
 	.categorie-item {
@@ -1677,7 +1677,9 @@ ol {
 	.categorie-item {
 		max-width: 100%;
 	}
-
+	.tigirigna {
+		width: 100%;
+	}
 	.section-title {
 		padding: 0;
 	}
@@ -1861,7 +1863,9 @@ ol {
 	.section-title h2 {
 		font-size: 30px;
 	}
-
+	.tigirigna {
+		width: 100%;
+	}
 	.signup-form,
 	.contact-form {
 		padding: 20px;
