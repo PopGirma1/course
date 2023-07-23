@@ -134,10 +134,11 @@ ol {
 	padding-bottom: 115px;
 }
 
-.course-items-area{
+.course-items-area {
 	display: flex;
 	justify-content: center;
 }
+
 .text-white h1,
 .text-white h2,
 .text-white h3,
@@ -372,8 +373,9 @@ ol {
 }
 
 .align-items-stretch:hover {
-	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+	transform: scale(1.1);
+	/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 .categorie-item .ci-thumb {
 	background-size: cover;
@@ -1528,6 +1530,9 @@ ol {
 		margin-left: 38px;
 	}
 
+	.tigirigna {
+		width: 400px;
+	}
 
 	.header-btn {
 		min-width: 160px;
@@ -1576,6 +1581,10 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.section-title {
 		padding: 0;
+	}
+
+	.tigirigna {
+		width: 400px;
 	}
 
 	.categorie-item {
@@ -1799,6 +1808,10 @@ ol {
 	.categorie-item {
 		max-width: 100%;
 	}
+	.tigirigna {
+		width: 100%;
+	}
+
 	.hero-section {
 		height: auto;
 	}
