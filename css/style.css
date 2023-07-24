@@ -1504,6 +1504,8 @@ ol {
 	margin-right: 15px;
 }
 
+
+
 /*------------------
   Responsive
 ---------------------*/
@@ -1530,9 +1532,6 @@ ol {
 		margin-left: 38px;
 	}
 
-	.tigirigna {
-		width: 400px;
-	}
 
 	.header-btn {
 		min-width: 160px;
